@@ -31,6 +31,6 @@ if (isset($zp))
 $price = call_user_func($zp, $price);
 return $price;
 }
-echo "Ціна: junder \$" . getPrice('j') . "\n";
+echo "Ціна: junior \$" . getPrice('j') . "\n";
 echo "Ціна: midl \$" . getPrice('m') . "\n";
-echo "Ціна senjor \$" . getPrice('s') . "\n";
+echo "Ціна senior \$" . getPrice('s') . "\n";
