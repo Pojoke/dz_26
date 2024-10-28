@@ -1,5 +1,5 @@
 <?php
-
+global $text;
 
 function square($n) {    
     return mb_strtolower($n);  
