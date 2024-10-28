@@ -4,5 +4,7 @@ $vidpovid *=$zna;
 return $vidpovid;
 }
 $arr=array(1,2,4,69,-3-50);
-// $n=array();
-echo array_reduce($arr, "um", 1);
+$filter=array_filter($arr, function($num){
+
+    return $num > 0;});
+echo array_reduce($filter, "um", 1);
